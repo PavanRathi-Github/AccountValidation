@@ -1,0 +1,10 @@
+
+server:
+  port: 8081
+accountvalidator:
+  numberOfThreads: 10
+  sources:
+    - name: testSource1
+      url: http://localhost:8081/testSource1
+    - name: testSource2
+      url: http://localhost:8081/testSource2
